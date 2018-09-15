@@ -1,0 +1,19 @@
+# Third Party Libraries
+node_modules
+src/lib
+
+# User Folders
+.vs
+.vscode
+*.user
+
+# Exclude Server Build Artifacts
+[Oo]bj
+[Dd]ebug
+[Bb]in
+
+
+# Exclude Client Build Artifacts
+wwwroot
+**/ClientApplication/**/*.js
+**/ClientApplicationsrc/**/*.js.map
